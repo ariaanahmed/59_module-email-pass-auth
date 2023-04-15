@@ -9,3 +9,11 @@
 
 59-2 Simple form, input, change, blur, submit, preventDefault
 
+const handleOnChange = (event) =>{
+        event.preventDefault()
+        const email = event.target.email.value;
+        const password = event.target.password.value;
+        console.log(email, password)
+    }
+
+59-3 Use Bootstrap and React Bootstrap Form for Register
