@@ -1,0 +1,11 @@
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: capitalize;
+}

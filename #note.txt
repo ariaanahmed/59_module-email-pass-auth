@@ -6,3 +6,6 @@
 * 3. sign in === login
 * 4. sign up === register
 */
+
+59-2 Simple form, input, change, blur, submit, preventDefault
+
