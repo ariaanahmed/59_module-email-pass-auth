@@ -1,6 +1,10 @@
 import React from 'react';
 import './Register.css'
 
+import app from '../../firebase/firebase.config';
+import {createUserWithEmailAndPassword, getAuth} from 'firebase/auth';
+const auth = getAuth(app)
+
 const Register = () => {
 
     const handleOnChange = (event) =>{
@@ -8,6 +12,13 @@ const Register = () => {
         const email = event.target.email.value;
         const password = event.target.password.value;
         console.log(email, password)
+
+        createUserWithEmailAndPassword(auth, email, password).then((userCredential) => {
+            const loggedInUser = userCredential.user;
+            console.log(loggedInUser)
+        }).catch((error) => {
+            console.error(error);
+        })
     }
 
 

@@ -17,3 +17,5 @@ const handleOnChange = (event) =>{
     }
 
 59-3 Use Bootstrap and React Bootstrap Form for Register
+
+59-4 Create new user using email and password on firebase
