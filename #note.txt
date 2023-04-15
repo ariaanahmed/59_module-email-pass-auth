@@ -19,3 +19,8 @@ const handleOnChange = (event) =>{
 59-3 Use Bootstrap and React Bootstrap Form for Register
 
 59-4 Create new user using email and password on firebase
+
+59-5 Login form field validation using regular expression
+string er bhetore pattern check korar jonno regular expression bebohar kora hoi.
+regular expression cheat sheet -> google it
+password validation regex javascript -> google it
