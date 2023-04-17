@@ -24,3 +24,13 @@ const handleOnChange = (event) =>{
 string er bhetore pattern check korar jonno regular expression bebohar kora hoi.
 regular expression cheat sheet -> google it
 password validation regex javascript -> google it
+
+59-7 Sign In, Login, Toggle Registration and login, Handle Email Verification
+
+validate email > https://firebase.google.com/docs/auth/web/manage-users?hl=en&authuser=0 > https://firebase.google.com/docs/auth/web/manage-users?hl=en&authuser=0#send_a_user_a_verification_email 
+
+59-8 Forget or Reset Password and Update user name to firebase
+
+react.dev > useRef >
+
+update user profile > https://firebase.google.com/docs/auth/web/manage-users?hl=en&authuser=0#update_a_users_profile > Update a user's profile
